@@ -1,4 +1,4 @@
-const BASE_URL = `${process.env.NEXT_PUBLIC_API_URL || "https://cars-24-clone-net-nextjs.onrender.com/api"}/Appointment`;
+const BASE_URL = `${process.env.NEXT_PUBLIC_API_URL || "https://cars24-clone-umfe.onrender.com/api"}/Appointment`;
 
 export const createAppointment = async (userid: string, appointment: any) => {
   const response = await fetch(`${BASE_URL}?userId=${userid}`, {

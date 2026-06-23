@@ -1,4 +1,4 @@
-const BASE_URL = `${process.env.NEXT_PUBLIC_API_URL || "https://cars-24-clone-net-nextjs.onrender.com/api"}/Car`;
+const BASE_URL = `${process.env.NEXT_PUBLIC_API_URL || "https://cars24-clone-umfe.onrender.com/api"}/Car`;
 
 type CarDetails = {
   title: string;
